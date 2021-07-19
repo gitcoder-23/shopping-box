@@ -6,7 +6,7 @@ import { uniqBy, orderBy } from 'lodash';
 
 function Items() {
 
-   const [ searchItem, setSearchItem ] = useState('');
+    const [ searchItem, setSearchItem ] = useState('');
     
     const dispatch = useDispatch();    
     
